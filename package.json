@@ -1,0 +1,21 @@
+{
+  "name": "web-companion",
+  "version": "1.0.0",
+  "description": "可嵌入任意网页项目的交互式陪伴插件",
+  "main": "dist/companion.min.js",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "node scripts/build.js",
+    "dev": "python3 -m http.server 8080"
+  },
+  "keywords": [
+    "companion",
+    "pet",
+    "widget",
+    "interactive"
+  ],
+  "author": "",
+  "license": "MIT"
+}
